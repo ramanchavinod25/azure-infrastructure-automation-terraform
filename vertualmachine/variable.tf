@@ -77,6 +77,7 @@ variable "adminUser" {
 }
 
 variable "adminPassword" {
-  type    = string
-  default = "Vinod123456789"
+  description = "Administrator password"
+  type        = string
+  sensitive   = true
 }
