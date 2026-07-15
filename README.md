@@ -2,37 +2,44 @@
 
 ## Project Overview
 
-This project automates the deployment of Microsoft Azure infrastructure using Terraform (Infrastructure as Code). The solution provisions Azure Resource Groups, Storage Accounts, Virtual Networks (VNets), Subnets, Public IP Addresses, Network Interfaces, Network Security Groups (NSGs), Windows Virtual Machines, and Managed Disks.
+This project automates the deployment of Microsoft Azure infrastructure using Terraform (Infrastructure as Code). The solution provisions multiple Azure resources, including Resource Groups, Storage Accounts, Virtual Networks (VNets), Subnets, Public IP Addresses, Network Interfaces, Network Security Groups (NSGs), Windows Virtual Machines, and Managed Disks.
 
-The project demonstrates infrastructure automation, cloud networking, secure resource provisioning, and Infrastructure as Code (IaC) best practices.
+## Azure Services Used
 
-## Technologies Used
+- Azure Resource Groups
+- Azure Storage Account
+- Azure Virtual Network
+- Azure Subnet
+- Azure Public IP
+- Azure Network Interface
+- Azure Network Security Group
+- Azure Windows Virtual Machine
+- Azure Managed Disk
+
+## Technologies
 
 - Microsoft Azure
 - Terraform
 - Git
 - GitHub
 
-## Azure Resources Deployed
-
-- Resource Groups
-- Storage Account
-- Virtual Network (VNet)
-- Subnet
-- Public IP Address
-- Network Interface (NIC)
-- Network Security Group (NSG)
-- Windows Virtual Machine
-- Managed Disk
-
 ## Key Features
 
 - Infrastructure as Code (IaC)
-- Automated Azure resource deployment
-- Secure networking with NSGs
-- Parameterized Terraform variables
-- Reusable infrastructure configuration
+- Automated Azure infrastructure deployment
+- Parameterized configuration using variables
+- Secure network configuration using NSGs
+- Reusable Terraform configuration
+
+## How to Deploy
+
+```bash
+terraform init
+terraform validate
+terraform plan
+terraform apply
+```
 
 ## Author
 
-**Ramancha Vinod Kumar**
+Ramancha Vinod Kumar
